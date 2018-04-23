@@ -43,6 +43,9 @@ body{
     
 }
 
+.testgit {
+
+}
 
 header{
 	margin-top: 44px;
@@ -228,8 +231,6 @@ footer{
     width: 37%;
     
 }
-
-
 
 
 @media screen and (max-width: 780px) and (min-width: 0px){
