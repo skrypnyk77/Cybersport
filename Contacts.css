@@ -1,0 +1,279 @@
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #ffffff;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	padding-bottom:30px;
+}
+
+
+header img{
+	padding-left: 60px;
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+	font-family: CAMBRIA;
+}
+
+
+
+li {
+	display: inline;
+	margin-right: 26px;
+	color: grey;
+	font-size: 20px;
+}
+
+
+ul{
+	padding-top: 22px;
+	padding-right: 208px;
+}
+
+.menu{
+	float: right;
+}
+
+.content{
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+form{
+	color: #494b4a;
+	float: left;
+	margin-top: 150px;
+	margin-left: 100px;
+	width: 35%;
+	display: inline-block;
+}
+
+.tab1 {
+	border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px;  
+   outline: none; 
+   height: 40px; 
+   width: 222px; 
+   font-size: 18px;
+   font-family: CAMBRIA; 
+   background-color: #eeeeee;
+   color: #868686;
+}
+
+.tab2{
+	border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px;  
+   outline: none; 
+   height: 40px; 
+   width: 222px; 
+   color: #cccccc;
+   font-size: 18px;
+   font-family: CAMBRIA; 
+   background-color: #eeeeee;
+   color: #868686 ;
+}
+
+.tab3{
+	border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px;  
+   outline: none; 
+   height: 110px; 
+   width: 444px; 
+   color: #cccccc;
+   font-size: 18px;
+   font-family: CAMBRIA; 
+   background-color: #eeeeee;
+   color: #868686 ;
+}
+
+
+
+.send{
+	margin-left: 320px;
+	border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   -webkit-border-radius: 3px;  
+   outline: none; 
+   height: 50px; 
+   width: 130px;
+  color: #868686;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  font-family: CAMBRIA;
+  font-size: 18px;
+}
+
+.text{
+	margin-top: 150px;
+	float: right;
+	width: 55%;
+	display: inline-block;
+	background-color: #fff;
+	color: #494b4a;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+.maps{
+	margin-top: 60px;
+	width: 100%;
+    height: 800px; 
+    border:0;
+}
+
+
+
+.footer{
+	
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 13px;
+}
+
+.copyright{
+	color: white;
+	float: left;
+	background-color: #222222;
+	width: 50%;
+	height: 153.5px;
+}
+
+.copyright p{
+	width:70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+.icons{
+	width:50%;
+    background-color: #222222;
+    color: white;
+    float: right;
+}
+
+.icons p{
+	margin-top: 40px;
+	width:70%;
+    text-align: left;
+    margin-left: 240px;
+}
+
+
+
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a{
+    text-align:center;
+    width:16px;
+    height:16px;
+    float:left;
+    background:#fff;
+    border:1px solid #ccc;
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:46px;
+    margin:0 10px 10px 0;
+    padding:6px;
+    color:#000;
+}
+
+.container{
+	width:70%;
+    text-align: left;
+    margin-left: 240px;
+}
+
+.facebook a:hover{
+	background:#3b5998;
+	color:#fff;
+}
+
+.pinterest a:hover{
+	background:#c8232c;
+	color:#fff;
+}
+
+.twitter a:hover{
+	background:#00acee;
+	color:#fff;
+}
+
+.instagram a:hover{
+	background:#3f729b;
+	color:#fff;
+}
+
+
+
+
+
+@media screen and (max-width: 1360px) and (min-width: 0px){
+	header a img{
+		float: left;
+	}
+
+	.menu{
+		display: block;
+		float: left;
+		margin-left: 60px;
+	}
+
+	form{
+		margin-top: 200px;
+	}
+
+	.text{
+		float: left;
+		margin-left: 100px;
+		margin-top: 100px;
+	}
+
+
+	 .icons{
+    	width: 100%;
+    	float: right;
+    	display: block;
+    	margin-top: -154px;
+    }
+
+    .icons p{
+		text-align: left;
+   		margin-left: 100px;
+   		margin-top: 100px;
+}
+
+	.container{
+		margin-left: 100px;
+		margin-bottom: 463px;
+	
+
+}
+
+
+
+
+
+
+
+
+

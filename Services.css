@@ -1,0 +1,229 @@
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #ffffff;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	padding-bottom:30px;
+}
+
+
+header img{
+	padding-left: 60px;
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+	font-family: CAMBRIA;
+}
+
+
+
+li {
+	display: inline;
+	margin-right: 26px;
+	color: grey;
+	font-size: 20px;
+}
+
+
+ul{
+	padding-top: 22px;
+	padding-right: 208px;
+}
+
+.menu{
+	float: right;
+}
+
+.serv{
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+
+.mainpict{
+	width: 45%;
+	float: left;
+	display: inline-block;
+}
+
+.mainpict img{
+	width: 100%;
+	height: 750px;
+	margin-left: 50px;
+}
+
+
+.text{
+	float: right;
+	display: inline-block;
+	width: 55%;
+	background-color: #fff;
+	color: #494b4a;
+}
+
+
+.text h1{
+	width: 70%;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.text p{
+	width: 70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 45px;
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.footer{
+	
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 13px;
+}
+
+.copyright{
+	color: white;
+	float: left;
+	background-color: #222222;
+	width: 50%;
+	height: 153.5px;
+}
+
+.copyright p{
+	width:70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+.icons{
+	width:50%;
+    background-color: #222222;
+    color: white;
+    float: right;
+}
+
+.icons p{
+	margin-top: 40px;
+	width:70%;
+    text-align: left;
+    margin-left: 240px;
+}
+
+
+
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a{
+    text-align:center;
+    width:16px;
+    height:16px;
+    float:left;
+    background:#fff;
+    border:1px solid #ccc;
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:46px;
+    margin:0 10px 10px 0;
+    padding:6px;
+    color:#000;
+}
+
+.container{
+	width:70%;
+    text-align: left;
+    margin-left: 240px;
+}
+
+.facebook a:hover{
+	background:#3b5998;
+	color:#fff;
+}
+
+.pinterest a:hover{
+	background:#c8232c;
+	color:#fff;
+}
+
+.twitter a:hover{
+	background:#00acee;
+	color:#fff;
+}
+
+.instagram a:hover{
+	background:#3f729b;
+	color:#fff;
+}
+
+
+
+
+@media screen and (max-width: 1430px) and (min-width: 0px){
+	header a img{
+		float: left;
+	}
+
+	
+
+	.menu{
+		display: block;
+		float: left;
+		margin-left: 60px;
+	}
+
+	.mainpict img {
+    	display: none;
+    }
+
+	.text{
+		float: left;
+		margin-top: 100px;
+	}
+
+
+	 .icons{
+    	width: 100%;
+    	float: right;
+    	display: block;
+    	margin-top: -154px;
+    }
+
+    .icons p{
+		text-align: left;
+   		margin-left: 100px;
+   		margin-top: 100px;
+}
+
+	.container{
+		margin-left: 100px;
+		margin-bottom: 463px;
+	
+
+}

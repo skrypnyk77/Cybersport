@@ -1,0 +1,413 @@
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	background-color: white;
+	width: 100%;
+	border-bottom: 2px, dashed, grey;
+}
+
+
+header img{
+	padding-left: 60px;
+}
+
+header a{
+	text-decoration: none;
+	color: black;
+	font-family: CAMBRIA;
+}
+
+
+
+li {
+	display: inline;
+	margin-right: 26px;
+	color: grey;
+	font-size: 20px;
+}
+
+
+ul{
+	padding-top: 22px;
+	padding-right: 208px;
+}
+
+.menu{
+	float: right;
+}
+
+
+
+h2{
+	position: absolute;
+	top	:500px;
+	left: 100px;
+	color: white;
+	font-size: 145px;
+}
+
+
+.picture img{
+	width: 100%;
+	height: 860px;
+}
+
+
+.main_content_1{
+	margin-top: -4px;
+	flex: row;
+	height: 506px;
+	font-family: CAMBRIA;
+	font-size: 18px;
+}
+
+.pic1{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: 506px;
+}
+
+.pic1 img{
+	width: 100%;
+	height: 506px;
+}
+
+.text-1{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	height: 506px;
+	background-color: #f2f2f2;
+}
+
+.text-1 h1{
+	width: 70%;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+.text-1 p{
+	width: 70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.topbutton {
+	width:20px;
+	border:2px solid #ccc;
+	background:#ccc;
+	text-align:center;
+	padding:10px;
+	position: fixed;
+	bottom:50px;
+	right:0;
+	color:black;
+	font-family: CAMBRIA;
+	font-size:16px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	text-decoration: none;
+}
+
+
+.main_content_2{
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 18px;
+}
+
+.text-2{
+	float: left;
+	width: 50%;
+	height: 563px;
+}
+
+.text-2 h1{
+	width: 70%;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+
+.text-2 p{
+	width:70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.pic2{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	height: 563px;
+}
+
+.pic2 img{
+	width: 100%;
+	height: 563px;
+}
+
+
+.main_content_3{
+	flex: row;
+	font-family: CAMBRIA;
+	font-size:18px;
+	height: 544px;
+}
+
+
+.pic3{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: 540px;
+}
+
+.pic3 img{
+	width: 100%;
+	height: 544px;
+}
+
+
+.text-3{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	height: 540px;
+	background-color: #f2f2f2;
+
+}
+
+.text-3 h1{
+	width: 70%;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.text-3 p{
+	width: 70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 45px;
+}
+
+
+.main_content_4{
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 18px;
+
+}
+
+.text-4{
+	float: left;
+	width: 50%;
+	height: 563px;
+}
+
+.text-4 h1{
+	width: 70%;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 120px;
+}
+
+.text-4 p{
+	width:70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.pic4{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	height: 563px;
+}
+
+.pic4 img{
+	width: 100%;
+	height: 563px;
+}
+
+
+.footer{
+	
+	flex: row;
+	font-family: CAMBRIA;
+	font-size: 13px;
+}
+
+.copyright{
+	color: white;
+	float: left;
+	background-color: #222222;
+	width: 50%;
+	height: 153.5px;
+}
+
+.copyright p{
+	width:70%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+.icons{
+	width:50%;
+    background-color: #222222;
+    color: white;
+    float: right;
+}
+
+.icons p{
+	margin-top: 40px;
+	width:70%;
+    text-align: left;
+    margin-left: 240px;
+}
+
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a{
+    text-align:center;
+    width:16px;
+    height:16px;
+    float:left;
+    background:#fff;
+    border:1px solid #ccc;
+    box-shadow:0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius:46px;
+    margin:0 10px 10px 0;
+    padding:6px;
+    color:#000;
+}
+
+.container{
+	width:70%;
+    text-align: left;
+    margin-left: 240px;
+}
+
+.facebook a:hover{
+	background:#3b5998;
+	color:#fff;
+}
+
+.pinterest a:hover{
+	background:#c8232c;
+	color:#fff;
+}
+
+.twitter a:hover{
+	background:#00acee;
+	color:#fff;
+}
+
+.instagram a:hover{
+	background:#3f729b;
+	color:#fff;
+}
+
+
+
+@media screen and (max-width: 1430px) and (min-width: 0px){
+	header a img{
+		float: left;
+	}
+
+
+	.piсture{
+		display: block;
+	}
+
+	.menu{
+		display: block;
+		float: left;
+		margin-left: 60px;
+	}
+
+  	.text-1 {
+  		width: 100%;
+  		display: block;
+  		margin-top: -506px;
+
+  	}
+    
+    .pic1 img {
+    	display: none;
+    }
+
+    .text-2{
+    	width: 100%;
+  		display: block; 
+    }
+
+    .pic2 img{
+    	display: none;
+    }
+
+
+    .text-3{
+    	width: 100%;
+  		display: block;
+  		margin-top: -563px;
+    }
+
+
+ 	.pic3 img{
+    	display: none;
+    }
+
+    .text-4{
+    	width: 100%;
+  		display: block;
+  		margin-top: -24px;
+    }
+
+
+  	 .pic4 img{
+    	display: none;
+    }
+
+
+    .icons{
+    	width: 100%;
+    	float: right;
+    	display: block;
+    	margin-top: -564px;
+    }
+
+    .icons p{
+		text-align: left;
+   		margin-left: 100px;
+   		margin-top: 100px;
+}
+
+	.container{
+		margin-left: 100px;
+		margin-bottom: 463px;
+	
+
+
+}
+
+
+
+
+
